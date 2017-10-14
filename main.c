@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 #include <locale.h>
-#define OK_MSG "Команда выполненеа успешно"
-#define FILE_IS_EXIST "Файл уже существует"
-#define FILE_NOT_FOUND "Файл не найден"
-#define COMMAND_ERR "Команда не корректна\n"
-#define HELP "-c filename создание файла, -d filename удаление файла"
+
+#define OK_MSG "РљРѕРјР°РЅРґР° РІС‹РїРѕР»РЅРµРЅРµР° СѓСЃРїРµС€РЅРѕ"
+#define FILE_IS_EXIST "Р¤Р°Р№Р» СѓР¶Рµ СЃСѓС‰РµСЃС‚РІСѓРµС‚"
+#define FILE_NOT_FOUND "Р¤Р°Р№Р» РЅРµ РЅР°Р№РґРµРЅ"
+#define COMMAND_ERR "РљРѕРјР°РЅРґР° РЅРµ РєРѕСЂСЂРµРєС‚РЅР°\n"
+#define HELP "-c filename СЃРѕР·РґР°РЅРёРµ С„Р°Р№Р»Р°, -d filename СѓРґР°Р»РµРЅРёРµ С„Р°Р№Р»Р°"
 
 #define NEW_FILE "-c"
 #define DELETE_FILE "-d"
